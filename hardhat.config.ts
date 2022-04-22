@@ -9,6 +9,8 @@ import "solidity-coverage";
 
 dotenv.config();
 
+require("./tasks/index.ts");
+
 const ALCHE_KEY_RINKEBY = process.env.ALCHE_KEY_RINKEBY as string;
 const ALCHE_KEY_ROPSTEN = process.env.ALCHE_KEY_ROPSTEN as string;
 const PK_1 = process.env.PK_1 as string;
